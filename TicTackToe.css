@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: "Raleway",sans-serif;
+}
+body{
+    height:100vh;
+    background-color: black;
+}
+h1{
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    min-width: 200px;
+    max-width:fit-content;
+    float: left;
+    color: white;
+    border:solid 5px blueviolet;
+    border-radius: 10px;
+}
+h1.turn{
+    background-color: blueviolet;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+#player2{
+    float:right;   
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 80%;
+    flex-direction: column;
+}
+button{
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    background-color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+}
+.grid{
+    background: transparent;
+    border-radius: 0;
+    margin:0;
+}
+.right{
+    border-right: solid 5px blueviolet;
+}
+.bottom{
+    border-bottom: solid 5px blueviolet;
+}
+.popup{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80%;
+    width: 100%;
+    z-index: 2;
+}
+#message{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-top:40px;
+}
+.Restart{
+    margin-top: 20px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+.boundry{
+    padding: 40px;
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 600px;
+}
+input{
+    outline: none;
+    background-color: whitesmoke;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 18px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+div.input{
+    background-color: blueviolet;
+    padding: 3px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-left: 30px;   
+}
+hr{
+    position: absolute;
+    height: 5px;
+    background-color: rgb(151, 22, 22);
+    border: none;
+    border-radius: 5px;
+    float: inline-start;
+}
+.style0{
+    width: 300px;
+    top:125px;    
+}
+.style1{
+    width: 300px;
+    top:225px;    
+}
+.style2{
+    width: 300px;
+    top:325px;    
+}
+.style3{
+    height: 300px;
+    width: 5px;
+    left:43%;
+    top:85px;    
+}
+.style4{
+    height: 300px;
+    width: 5px;
+    top:80px;   
+}
+.style5{
+    height: 300px;
+    width: 5px;
+    top:80px;
+    left: 56.5%;    
+}
+.style6{
+    height: 400px;
+    width: 5px;
+    top:25px; 
+    transform: rotate(-45deg);  
+}
+.style7{
+    height: 400px;
+    width: 5px;
+    top:25px; 
+    transform: rotate(45deg);  
+}

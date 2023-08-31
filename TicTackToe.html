@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="TicTackToe.css">
+</head>
+<body>
+    <h1 class="turn" id="player1">X : Player 1</h1>
+    <h1 id="player2">O : Player 2</h1>
+    <br>.
+    <h2>TIC TAC TOE Game</h2>
+    <div class="container">
+        <hr id="strike" class="style">
+        <div>
+            <button class="grid right bottom"></button>
+            <button class="grid right bottom"></button>
+            <button class="grid bottom"></button>
+        </div>
+        <div>
+            <button class="grid right bottom"></button>
+            <button class="grid right bottom"></button>
+            <button class="grid bottom"></button>
+        </div>
+        <div>
+            <button class="grid right"></button>
+            <button class="grid right"></button>
+            <button class="grid"></button>
+        </div>
+        <p id="message">&nbsp;</p>
+        <button class="Restart" onclick="newGame()">Restart</button>
+    </div>
+    <div id="playerdetails" class="popup">
+        <div class="boundry"><div class="form">
+    <div class="input">X<input type="text" class="plyr1" placeholder="Enter name of player 1"></div>
+    <div class="input">O<input type="text" class="plyr2" placeholder="Enter name of player 2"></div></div>
+    <button class="Restart" onclick="startGame()">Start Game</button>
+    </div></div>
+
+    <script src="TicTackToe.js"></script>
+</body>
+</html>
